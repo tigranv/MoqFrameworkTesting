@@ -42,11 +42,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entity\BenefitEntity.cs" />
+    <Compile Include="Entity\Benefits.cs" />
+    <Compile Include="Entity\Employee.cs" />
+    <Compile Include="Entity\EmployeeEntity.cs" />
+    <Compile Include="Model\EmpBenefits.cs" />
+    <Compile Include="Model\EmpFinanceDetails.cs" />
+    <Compile Include="Model\EmployeesDetails.cs" />
+    <Compile Include="Model\EmpPersonalDetails.cs" />
+    <Compile Include="Model\EmpPfDetails.cs" />
+    <Compile Include="Model\IEmpBenefits.cs" />
+    <Compile Include="Model\IempFinanceDetails.cs" />
+    <Compile Include="Model\IEmployeesDetails.cs" />
+    <Compile Include="Model\IEmpPersonalDetails.cs" />
+    <Compile Include="Model\IempPfDetails.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Service referencies\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
