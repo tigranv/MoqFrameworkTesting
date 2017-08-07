@@ -8,7 +8,7 @@ namespace EmployeeTest
     public class UnitTest1
     {
         [Test]
-        public void TestMethod1()
+        public void TestMethodNUnit()
         {
             //Arrange
             var pfDetails = new EmpPfDetails(new EmpPersonalDetails());

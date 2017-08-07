@@ -59,6 +59,9 @@
   <ItemGroup>
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnitTest2Moq.cs" />
+    <Compile Include="UnitTestReturnValue.cs" />
+    <Compile Include="UnitTestTimes.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
