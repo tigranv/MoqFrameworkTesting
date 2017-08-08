@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TestingMoqFramework.Model
 {
-    class EmployeesDetails : IEmployeesDetails
+    public class EmployeesDetails : IEmployeesDetails
     {
         private IEmpPersonalDetails _empPersonalDetails;
 
